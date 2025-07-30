@@ -1,0 +1,28 @@
+{
+  "name": "ai-apps-config-mcp",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Beckie <bluebeckie@gmail.com>",
+  "license": "ISC",
+  "description": "MCP server for locating and reading AI application configuration files",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "@types/node": "^24.1.0",
+    "js-yaml": "^4.1.0",
+    "plist": "^3.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/plist": "^3.0.5"
+  }
+}

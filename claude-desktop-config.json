@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ai-apps-config": {
+      "command": "node",
+      "args": [
+        "/Users/beckie/Documents/code/github/macos-config-mcp-server/dist/index.js"
+      ],
+      "env": {}
+    }
+  }
+}
