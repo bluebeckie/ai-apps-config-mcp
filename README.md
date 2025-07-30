@@ -123,3 +123,7 @@ To use this MCP server with Claude Desktop, add the following configuration to y
   }
 }
 ```
+Ask Claude Desktop to find my VScode mcp config
+<img width="741" height="654" alt="find-config" src="https://github.com/user-attachments/assets/7b5095a4-7db1-4766-a5b9-7280ce0a014e" />
+
+
