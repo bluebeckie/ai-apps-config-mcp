@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "type": "module",
+  "bin": {
+    "ai-apps-config-mcp": "dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "tsx src/index.ts",
     "dev": "tsx watch src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "keywords": [],
   "author": "Beckie <bluebeckie@gmail.com>",
   "license": "ISC",

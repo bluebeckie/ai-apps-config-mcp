@@ -11,7 +11,7 @@ import {
 import { AppConfigMapping, ConfigLocation } from './app-config-mapping.js';
 import { ConfigReader } from './config-reader.js';
 
-class MacOSConfigServer {
+class AIAppsConfigServer {
   private server: Server;
 
   constructor() {
@@ -388,5 +388,5 @@ class MacOSConfigServer {
   }
 }
 
-const server = new MacOSConfigServer();
+const server = new AIAppsConfigServer();
 server.run().catch(console.error);
